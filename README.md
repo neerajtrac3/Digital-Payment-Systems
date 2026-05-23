@@ -2,7 +2,7 @@
 A comprehensive, architecture‑driven repository documenting modern Digital Payment Systems, including multi‑rail payment orchestration, AI‑native modernization frameworks, ISO 20022 transformation patterns, and enterprise‑grade resiliency models
 
 ## 📁 Repository Structure
-
+```mermaid
 Digital-Payment-Systems/
 │
 ├── architectures/
@@ -34,8 +34,9 @@ Digital-Payment-Systems/
 │   └── programmable-b2b-flows.md
 │
 └── README.md
+```
 
-## 🧩 High-Level Architecture (Mermaid Diagram)
+## 🧩 High-Level Architecture (Diagram)
 
 ```mermaid
 flowchart TD
