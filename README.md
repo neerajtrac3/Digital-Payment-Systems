@@ -35,6 +35,7 @@ Digital-Payment-Systems/
 │
 └── README.md
 
+
 ## 🧩 High-Level Architecture (Diagram)
 
 ```mermaid
