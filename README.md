@@ -57,3 +57,15 @@ flowchart TD
     L --> M[Operations]
     L --> N[Finance]
     L --> O[Compliance]
+
+```
+
+## 🧩 Featured Original Frameworks
+
+- **ERMI** – Enterprise Rail Modernization Index  
+- **LNBA** – Legacy‑to‑Next Banking Architecture  
+- **UICS** – Unified Intelligent Control Stack  
+- **AIDV** – AI‑Driven Validation Framework  
+- **SLM‑Driven Payment Cognition Models**  
+
+
