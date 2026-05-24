@@ -75,9 +75,3 @@ This repository includes the whitepaper:
 **AI‑Native Tokenized Money: Architecture, Settlement Models & Programmable B2B Flows**  
 Authored by **Neeraj Aggarwal (2026)**
 
-📘 [Download the full PDF](docs/AI-Native-Tokenized-Money.pdf)
-
-This paper defines the unified architecture for tokenized deposits, stablecoin settlement, 
-programmable B2B flows, and AI‑native compliance layers within modern digital payment systems.
-
-
