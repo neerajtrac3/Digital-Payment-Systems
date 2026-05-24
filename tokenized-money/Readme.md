@@ -83,8 +83,8 @@ Tokenized settlement executes
 Evidence logged
 
 
-### 5. Unified Architecture Diagram (Mermaid)
-```(mermaid)
+### 5. Unified Architecture Diagram 
+```mermaid
 flowchart TD
 
     A[Enterprise Systems] --> B[Workflow Orchestrator]
