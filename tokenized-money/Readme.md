@@ -145,5 +145,6 @@ Liquidity becomes real‑time
 Compliance becomes AI‑native
 This whitepaper provides the architectural foundation for that transition.
 
-### 10. Citation (Zenodo‑Ready)
-Aggarwal, Neeraj. (2026). AI‑Native Tokenized Money: Architecture, Settlement Models & Programmable B2B Flows. Zenodo. DOI: to be assigned.
+### 10. Citation 
+Aggarwal, Neeraj. (2026). AI‑Native Tokenized Money: Architecture, Settlement Models & Programmable B2B Flows. 
+DOI: to be assigned.
