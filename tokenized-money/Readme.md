@@ -84,6 +84,7 @@ Evidence logged
 
 
 ### 5. Unified Architecture Diagram (Mermaid)
+```(mermaid)
 flowchart TD
 
     A[Enterprise Systems] --> B[Workflow Orchestrator]
@@ -104,7 +105,7 @@ flowchart TD
     L --> N[RTP]
     L --> O[Wires]
     L --> P[Cross-Border]
-
+```
 
 ### 6. Integration with Enterprise Payment Systems
 Tokenized money must integrate with:
