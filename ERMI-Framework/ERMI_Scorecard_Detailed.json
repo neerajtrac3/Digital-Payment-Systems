@@ -1,0 +1,84 @@
+{
+  "system_name": "Gateway Payments Platform",
+  "assessment_date": "2026-05-30",
+  "assessed_by": "ERMI Scoring Engine v1.0",
+
+  "indicator_scores": {
+    "architectural": {
+      "weight": 0.25,
+      "indicators": {
+        "modularity_and_domain_driven_design": 4,
+        "fault_isolation": 3,
+        "cloud_region_failover": 3,
+        "event_driven_architecture": 4
+      },
+      "dimension_score": 3.5,
+      "weighted_contribution": 17.5
+    },
+
+    "operational": {
+      "weight": 0.25,
+      "indicators": {
+        "observability_coverage": 2,
+        "incident_response_readiness": 2,
+        "automated_recovery": 1,
+        "chaos_engineering_maturity": 3
+      },
+      "dimension_score": 2.0,
+      "weighted_contribution": 10.0
+    },
+
+    "data": {
+      "weight": 0.20,
+      "indicators": {
+        "data_lineage_completeness": 3,
+        "replication_strategy": 3,
+        "cross_platform_consistency": 3,
+        "backup_restore_maturity": 3
+      },
+      "dimension_score": 3.0,
+      "weighted_contribution": 12.0
+    },
+
+    "security": {
+      "weight": 0.20,
+      "indicators": {
+        "zero_trust_adoption": 2,
+        "identity_controls": 3,
+        "api_security_posture": 2,
+        "continuous_monitoring": 3
+      },
+      "dimension_score": 2.5,
+      "weighted_contribution": 12.5
+    },
+
+    "organizational": {
+      "weight": 0.10,
+      "indicators": {
+        "governance_maturity": 4,
+        "architecture_review_process": 4,
+        "risk_technology_collaboration": 4,
+        "change_management_discipline": 4
+      },
+      "dimension_score": 4.0,
+      "weighted_contribution": 8.0
+    }
+  },
+
+  "final_ermi_score": 60.0,
+
+  "risk_level": "Moderate",
+
+  "recommendations": [
+    "Increase observability coverage across critical payment flows.",
+    "Implement automated failover for high-volume services.",
+    "Strengthen API security posture and continuous monitoring.",
+    "Prioritize modernization backlog based on resilience gaps."
+  ],
+
+  "metadata": {
+    "framework": "Enterprise Risk Modernization Index (ERMI)",
+    "version": "1.0",
+    "doi_reference": "https://zenodo.org/records/18460506"
+  }
+}
