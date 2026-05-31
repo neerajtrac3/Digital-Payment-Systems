@@ -1,0 +1,76 @@
+{
+  "schema_name": "ERMI Scoring Schema",
+  "version": "1.0",
+  "description": "JSON schema for calculating the Enterprise Risk Modernization Index (ERMI) score across five resilience dimensions.",
+  
+  "dimensions": {
+    "architectural": {
+      "weight": 0.25,
+      "indicators": [
+        "modularity_and_domain_driven_design",
+        "fault_isolation",
+        "cloud_region_failover",
+        "event_driven_architecture"
+      ],
+      "score_range": [0, 5]
+    },
+    "operational": {
+      "weight": 0.25,
+      "indicators": [
+        "observability_coverage",
+        "incident_response_readiness",
+        "automated_recovery",
+        "chaos_engineering_maturity"
+      ],
+      "score_range": [0, 5]
+    },
+    "data": {
+      "weight": 0.20,
+      "indicators": [
+        "data_lineage_completeness",
+        "replication_strategy",
+        "cross_platform_consistency",
+        "backup_restore_maturity"
+      ],
+      "score_range": [0, 5]
+    },
+    "security": {
+      "weight": 0.20,
+      "indicators": [
+        "zero_trust_adoption",
+        "identity_controls",
+        "api_security_posture",
+        "continuous_monitoring"
+      ],
+      "score_range": [0, 5]
+    },
+    "organizational": {
+      "weight": 0.10,
+      "indicators": [
+        "governance_maturity",
+        "architecture_review_process",
+        "risk_technology_collaboration",
+        "change_management_discipline"
+      ],
+      "score_range": [0, 5]
+    }
+  },
+
+  "score_rules": {
+    "scale": "0_to_5_per_indicator",
+    "final_score_range": "0_to_100",
+    "calculation_method": "sum(weight * normalized_score * 20)"
+  },
+
+  "metadata": {
+    "author": "Neeraj Aggarwal",
+    "framework": "Enterprise Risk Modernization Index (ERMI)",
+    "use_cases": [
+      "modernization_maturity_assessment",
+      "operational_resilience_scoring",
+      "ai_readiness_evaluation",
+      "regulatory_reporting",
+      "modernization_prioritization"
+    ]
+  }
+}
