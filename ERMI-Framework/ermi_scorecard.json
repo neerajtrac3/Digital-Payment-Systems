@@ -1,0 +1,54 @@
+{
+  "system_name": "Gateway Payments Platform",
+  "assessment_date": "2026-05-30",
+  "assessed_by": "ERMI Scoring Engine v1.0",
+
+  "dimension_scores": {
+    "architectural": {
+      "score": 3.5,
+      "weight": 0.25,
+      "weighted_contribution": 17.5,
+      "notes": "Strong modularity and multi-region readiness; event-driven adoption in progress."
+    },
+    "operational": {
+      "score": 2.0,
+      "weight": 0.25,
+      "weighted_contribution": 10.0,
+      "notes": "Observability gaps and inconsistent automated recovery workflows."
+    },
+    "data": {
+      "score": 3.0,
+      "weight": 0.20,
+      "weighted_contribution": 12.0,
+      "notes": "Good lineage and replication strategy; backup maturity improving."
+    },
+    "security": {
+      "score": 2.5,
+      "weight": 0.20,
+      "weighted_contribution": 12.5,
+      "notes": "Zero-trust adoption underway; API security posture requires strengthening."
+    },
+    "organizational": {
+      "score": 4.0,
+      "weight": 0.10,
+      "weighted_contribution": 8.0,
+      "notes": "Strong governance and architecture review processes."
+    }
+  },
+
+  "final_ermi_score": 60.0,
+
+  "risk_level": "Moderate",
+  "recommendations": [
+    "Increase observability coverage across critical payment flows.",
+    "Implement automated failover for high-volume services.",
+    "Strengthen API security posture and continuous monitoring.",
+    "Prioritize modernization backlog based on resilience gaps."
+  ],
+
+  "metadata": {
+    "framework": "Enterprise Risk Modernization Index (ERMI)",
+    "version": "1.0",
+    "doi_reference": "https://zenodo.org/records/18460506"
+  }
+}
