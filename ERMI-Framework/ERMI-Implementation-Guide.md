@@ -1,8 +1,8 @@
 # ERMI Implementation Guide
-A practical guide to applying the Enterprise Risk Modernization Index (ERMI) in digital payment systems.
+A practical guide to applying the ERMI in digital payment systems.
 
 ## 1. Overview
-ERMI (Enterprise Risk Modernization Index) is a resilience‑first scoring model designed to measure modernization maturity, operational risk exposure, and AI‑readiness across digital payment platforms.
+ERMI is a resilience‑first scoring model designed to measure modernization maturity, operational risk exposure, and AI‑readiness across digital payment platforms.
 This guide explains how to implement ERMI using structured metrics, scoring logic, dashboards, and governance workflows.
 
 ## 2. ERMI Architecture
